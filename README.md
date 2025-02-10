@@ -40,7 +40,5 @@ Feel free to submit issues or pull requests to improve the app!
 ## License
 This project is licensed under the **MIT License**.
 
----
-
-Let me know if you want additional details in the README! 🚀
+\
 
