@@ -1,0 +1,5 @@
+Scikit-Learn
+Python 3
+Streamlit
+Numpy
+Matplotlib
