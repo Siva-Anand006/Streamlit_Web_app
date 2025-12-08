@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ### 3. Launch the Dashboard
 ```bash
-streamlit run app.py
+streamlit run ./airport_des_sim.py
 ```
 The app will open automatically in your browser.
 
