@@ -18,15 +18,14 @@ A discrete-event simulation of passenger movement through airport check-in and s
 ## Project Structure
 
 ```
-.
-├── app.py                     # Streamlit dashboard application
-├── airport_sim.py             # Core SimPy simulation logic
-├── airport_analysis.py        # Analytics & DataFrame processing
-├── test_sim.py                # Offline simulation runner
-├── test_analysis.py           # Analytics module test
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
-```
+airport-simulation/
+├── airport_des_sim.py        # Streamlit web application (main app)
+├── airport_sim.py            # Core SimPy simulation model
+├── airport_analysis.py       # Analytics utilities & DataFrame builders
+├── test_sim.py               # Quick offline simulation test
+├── test_analysis.py          # Analytics layer test
+├── requirements.txt          # Dependencies
+└── README.md                 # This file
 
 ---
 
@@ -72,7 +71,7 @@ pip install -r requirements.txt
 
 ### 3. Launch the Dashboard
 ```bash
-streamlit run app.py
+streamlit run ./airport_des_sim.py
 ```
 The app will open automatically in your browser.
 
