@@ -1,4 +1,4 @@
-# 📦 Inventory Digital Twin — Simulation & Optimization (s, S)
+# Inventory Digital Twin — Simulation & Optimization (s, S)
 
 An interactive **decision-support simulation** that models a warehouse inventory system under uncertainty and identifies cost-effective inventory policies using **Monte Carlo simulation** and **policy optimization**.
 
@@ -6,7 +6,7 @@ This project demonstrates **end-to-end systems thinking**: from problem definiti
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Inventory decisions are made under uncertainty: fluctuating demand, variable lead times, and cost trade-offs between service level and holding inventory.
 
@@ -20,7 +20,7 @@ The result is an **interactive simulation tool** that allows users to test scena
 
 ---
 
-## 🧠 System Description
+## System Description
 
 ### Modeled System
 
@@ -38,7 +38,7 @@ This is a standard policy used in real-world supply chains and spare-parts syste
 
 ---
 
-## ⚙️ Modeling Assumptions
+## Modeling Assumptions
 
 | Component     | Assumption                                     |
 | ------------- | ---------------------------------------------- |
@@ -54,7 +54,7 @@ All assumptions are explicitly documented and adjustable in the app.
 
 ---
 
-## 📊 Key Performance Metrics
+## Key Performance Metrics
 
 The simulation tracks:
 
@@ -73,7 +73,7 @@ Results are reported as:
 
 ---
 
-## 🔁 What the App Does
+## What the App Does
 
 The Streamlit app provides three core capabilities:
 
@@ -104,7 +104,7 @@ Results are visualized with uncertainty bounds.
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 - **Discrete-event simulation** (event-driven inventory dynamics)
 - **Monte Carlo simulation** (replicated runs under randomness)
@@ -116,7 +116,7 @@ This approach mirrors how simulation is used in real operational decision-making
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - NumPy
@@ -126,8 +126,15 @@ This approach mirrors how simulation is used in real operational decision-making
 
 ---
 
-## ▶️ How to Run Locally
+## ▶How to Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+inventory-digital-twin/
+│
+├── app.py               # Streamlit application
+├── requirements.txt     # Dependencies
+├── README.md            # Project documentation
+
